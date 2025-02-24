@@ -5,9 +5,6 @@ import quiz
 import todolist  
 
 
-# Streamlit app starts here
-st.title("Welcome to the Growth Mindset Challenge")
-st.write("This is a Streamlit web app.")
 
 
 st.set_page_config(page_title="✨Growth Mindset Challenge")
