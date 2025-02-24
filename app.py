@@ -10,7 +10,6 @@ st.set_page_config(page_title="Growth Mindset Challenge")
 # Now import other modules
 import os
 import sys
-from utils import converter  # Ensure utils module is correctly structured
 
 # Streamlit app starts here
 st.title("Welcome to the Growth Mindset Challenge")
