@@ -6,7 +6,7 @@ import seaborn as sns
 from io import BytesIO  # Corrected import
 
 def show_converter():
-    st.title("✨Data Sweeper By Laiba Adnan")
+    st.title("✨Data Sweeper By Talha Mehmood")
     st.write("Transform your files between OSV and Excel formats with built-in data cleaning and visualization!")
     
     uploaded_files = st.file_uploader("Upload your file (CSV or Excel):", type=["csv", "xlsx"], accept_multiple_files=True)
