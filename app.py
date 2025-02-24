@@ -3,6 +3,14 @@ from utils import converter
 import resume  
 import quiz
 import todolist  
+import sys
+import os
+
+# Ensure utils is in the path
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "utils")))
+
+from converter import some_function  # Adjust based on what you import
+
 st.set_page_config(page_title="✨Growth Mindset Challenge")
 st.markdown("""
     <style>
