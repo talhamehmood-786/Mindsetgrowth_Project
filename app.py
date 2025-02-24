@@ -1,5 +1,5 @@
 import streamlit as st
-import converter
+from utils import converter
 import resume  
 import quiz
 import todolist  
