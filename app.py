@@ -4,10 +4,13 @@ import resume
 import quiz
 import todolist  
 
+# ✅ Pehla command ye hona chahiye
+st.set_page_config(page_title="🌟 Growth Mindset Challenge")
 
+# Ab baqi ka code likho
+st.title("Welcome to the Growth Mindset Challenge")
+st.write("This is a Streamlit web app.")
 
-
-st.set_page_config(page_title="✨Growth Mindset Challenge")
 st.markdown("""
     <style>
         div[data-testid="stTabs"] button {
