@@ -1,8 +1,21 @@
-import streamlit as st
-import converter
+import streamlit as st  # Import Streamlit first
 import resume  
 import quiz
 import todolist  
+import streamlit as st  # Import Streamlit first
+
+# ✅ Set page config BEFORE any other Streamlit function
+st.set_page_config(page_title="Growth Mindset Challenge")
+
+# Now import other modules
+import os
+import sys
+from utils import converter  # Ensure utils module is correctly structured
+
+# Streamlit app starts here
+st.title("Welcome to the Growth Mindset Challenge")
+st.write("This is a Streamlit web app.")
+
 
 st.set_page_config(page_title="✨Growth Mindset Challenge")
 st.markdown("""
