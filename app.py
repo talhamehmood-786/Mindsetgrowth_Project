@@ -1,15 +1,9 @@
-import streamlit as st  # Import Streamlit first
+import streamlit as st
+
 import resume  
 import quiz
 import todolist  
-import streamlit as st  # Import Streamlit first
 
-# ✅ Set page config BEFORE any other Streamlit function
-st.set_page_config(page_title="Growth Mindset Challenge")
-
-# Now import other modules
-import os
-import sys
 
 # Streamlit app starts here
 st.title("Welcome to the Growth Mindset Challenge")
